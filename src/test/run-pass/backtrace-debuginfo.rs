@@ -12,6 +12,7 @@
 // ignore-emscripten spawning processes is not supported
 // normalize-stderr-test ".*\n" -> ""
 // ignore-sgx no processes
+// ignore-msvc issue #62844
 
 // Note that above `-opt-bisect-limit=0` is used to basically disable
 // optimizations. It creates tons of output on stderr, hence we normalize
